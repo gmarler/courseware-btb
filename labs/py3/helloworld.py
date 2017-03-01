@@ -31,7 +31,11 @@ Pro tips:
 '''
 
 # Write your code here:
+def hello(arg):
+    return 'Hello, world!'
 
+def print_hello(arg):
+    print("Hello, world!")
 
 
 # Do not edit any code below this line!
