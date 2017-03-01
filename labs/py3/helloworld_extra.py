@@ -33,6 +33,44 @@ Nemo the Fish says:
 '''
 
 # Write your code here:
+class Dog:
+    def __init__(self, name):
+        self.name = name
+
+    def description(self):
+        return self.name + " the Dog"
+
+    def speak(self):
+        return 'Woof!'
+
+    def emote(self):
+      print(self.description() + " says: " + self.speak())
+
+class Cat:
+    def __init__(self,name):
+        self.name = name
+
+    def description(self):
+        return self.name + " the Cat"
+
+    def speak(self):
+        return 'Meow!'
+
+    def emote(self):
+      print(self.description() + " says: " + self.speak())
+
+class Fish:
+  def __init__(self,name):
+    self.name = name
+
+  def description(self):
+    return self.name + " the Fish"
+
+  def speak(self):
+    return ''
+
+  def emote(self):
+    print(self.description() + " says: " + self.speak())
 
 
 
