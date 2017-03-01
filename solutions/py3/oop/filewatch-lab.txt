@@ -1,0 +1,44 @@
+This lab is more free-form than the previous ones. You are going to
+use the observer pattern to implement an application that can watch a file.
+
+In this lab, you are going to write a program called `filewatch.py`,
+that watches a file's size. Inside you will create a `FileWatcher`
+class. This class keeps polling a specific file:
+
+    class FileWatcher:
+	def __init__(self, path_of_file_to_watch):
+	    self.path = path_of_file_to_watch
+
+When it notices a change in size, it broadcasts that event to any
+observers who asked to be notified. Specifically, it passes the new
+file size in bytes as the message.
+
+In addition to `FileWatcher`, you are going to create a `FileObserver`
+class, and three observer objects, named after people: `bob`, `john`,
+and `stacy`, for example. These three will subscribe to the
+`FileWatcher` instance. When informed that the file has changed, each
+observer will print a message like the following to standard out:
+
+    John noticed that the file is now 4 bytes
+
+Your program should run persistently, until you interrupt or abort
+it. While it is running, you then trigger events by modifying the
+watched file (in an editor, etc.) Some hints:
+
+ * You may want to use `os.stat` to check the file size.
+ * You can poll by using `time.sleep` in a while loop.
+ * You can hard-code the watched file into the path, or for bonus
+   points, design your program to take it as a command-line argument.
+
+EXTRA CREDIT:
+
+Make a copy of 'filewatch.py', named 'filewatch_extra.py'.  In this
+new file, extend your program to distinguish between two types of
+changes: increases in filesize, and decreases in filesize. Let
+observers subscribe to one type of event, or both. Be sure to have
+three different kinds of observers:
+
+ * Notified of file size increases,
+ * Notified of file size decreases,
+ * Notified of any change at all.
+
