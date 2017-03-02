@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db29bc51-f85e-42bc-b729-ce73b9f39ff9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/py3/generators/gensquares.py" afterPath="$PROJECT_DIR$/labs/py3/generators/gensquares.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/py3/generators/generators.py" afterPath="$PROJECT_DIR$/labs/py3/generators/generators.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,6 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/courseware-btb$gensquares.coverage" NAME="gensquares Coverage Results" MODIFIED="1488429036492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3/generators" />
+    <SUITE FILE_PATH="coverage/courseware-btb$Doctests_in_generators.coverage" NAME="Doctests in generators Coverage Results" MODIFIED="1488432062744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3/generators" />
     <SUITE FILE_PATH="coverage/courseware-btb$helloworld_extra.coverage" NAME="helloworld_extra Coverage Results" MODIFIED="1488337107865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3" />
     <SUITE FILE_PATH="coverage/courseware-btb$Doctests_in_listcomp.coverage" NAME="Doctests in listcomp Coverage Results" MODIFIED="1488337939355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3/comprehensions" />
     <SUITE FILE_PATH="coverage/courseware-btb$Doctests_in_helloworld_extra.coverage" NAME="Doctests in helloworld_extra Coverage Results" MODIFIED="1488337793312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3" />
@@ -24,21 +25,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="generators.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="generators.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/labs/py3/generators/generators.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gensquares.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/labs/py3/generators/gensquares.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            <state relative-caret-position="375">
+              <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -62,6 +53,7 @@
         <option value="$PROJECT_DIR$/labs/py3/helloworld.py" />
         <option value="$PROJECT_DIR$/labs/py3/helloworld_extra.py" />
         <option value="$PROJECT_DIR$/labs/py3/generators/gensquares.py" />
+        <option value="$PROJECT_DIR$/labs/py3/generators/generators.py" />
       </list>
     </option>
   </component>
@@ -160,28 +152,6 @@
               <option name="myItemId" value="labs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="py3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="comprehensions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="courseware-btb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="courseware-btb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -196,7 +166,7 @@
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/node-v6.9.2-linux-x64/bin/node" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
-  <component name="RunManager" selected="Python.gensquares">
+  <component name="RunManager" selected="Python tests.Doctests in generators">
     <configuration default="false" name="helloworld_extra" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -271,6 +241,26 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/labs/py3/generators/gensquares.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Doctests in generators" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="/usr/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/labs/py3/generators" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="courseware-btb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/labs/py3/generators/generators.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -481,18 +471,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.helloworld_extra" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Doctests in helloworld_extra" />
       <item index="2" class="java.lang.String" itemvalue="Python tests.Doctests in listcomp" />
       <item index="3" class="java.lang.String" itemvalue="Python.gensquares" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Doctests in generators" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.gensquares" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Doctests in listcomp" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Doctests in helloworld_extra" />
-        <item index="3" class="java.lang.String" itemvalue="Python.helloworld_extra" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Doctests in generators" />
+        <item index="1" class="java.lang.String" itemvalue="Python.gensquares" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Doctests in listcomp" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Doctests in helloworld_extra" />
+        <item index="4" class="java.lang.String" itemvalue="Python.helloworld_extra" />
       </list>
     </recent_temporary>
   </component>
@@ -538,27 +530,34 @@
       <option name="project" value="LOCAL" />
       <updated>1488428664745</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Make sure gensquares.py hits StopIteration">
+      <created>1488429059641</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1488429059641</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Doctests_in_helloworld_extra - 2017.02.28 at 22h 03m 54s.xml">
-      <configuration name="Doctests in helloworld_extra" configurationId="tests" />
+    <history-entry file="Doctests_in_generators - 2017.03.01 at 23h 51m 53s.xml">
+      <configuration name="Doctests in generators" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_helloworld_extra - 2017.02.28 at 22h 04m 21s.xml">
-      <configuration name="Doctests in helloworld_extra" configurationId="tests" />
+    <history-entry file="Doctests_in_generators - 2017.03.01 at 23h 55m 38s.xml">
+      <configuration name="Doctests in generators" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_helloworld_extra - 2017.02.28 at 22h 05m 39s.xml">
-      <configuration name="Doctests in helloworld_extra" configurationId="tests" />
+    <history-entry file="Doctests_in_generators - 2017.03.01 at 23h 56m 39s.xml">
+      <configuration name="Doctests in generators" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_helloworld_extra - 2017.02.28 at 22h 05m 54s.xml">
-      <configuration name="Doctests in helloworld_extra" configurationId="tests" />
+    <history-entry file="Doctests_in_generators - 2017.03.02 at 00h 15m 19s.xml">
+      <configuration name="Doctests in generators" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_helloworld_extra - 2017.02.28 at 22h 06m 13s.xml">
-      <configuration name="Doctests in helloworld_extra" configurationId="tests" />
+    <history-entry file="Doctests_in_generators - 2017.03.02 at 00h 16m 12s.xml">
+      <configuration name="Doctests in generators" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_helloworld_extra - 2017.02.28 at 22h 07m 48s.xml">
-      <configuration name="Doctests in helloworld_extra" configurationId="tests" />
+    <history-entry file="Doctests_in_generators - 2017.03.02 at 00h 21m 02s.xml">
+      <configuration name="Doctests in generators" configurationId="tests" />
     </history-entry>
     <history-entry file="Doctests_in_helloworld_extra - 2017.02.28 at 22h 09m 29s.xml">
       <configuration name="Doctests in helloworld_extra" configurationId="tests" />
@@ -608,7 +607,8 @@
     <MESSAGE value="Get helloworld.py tests passing." />
     <MESSAGE value="All helloworld_extra.py tests pass" />
     <MESSAGE value="add gensquares.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gensquares.py" />
+    <MESSAGE value="Make sure gensquares.py hits StopIteration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make sure gensquares.py hits StopIteration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -647,18 +647,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/py3/generators/generators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/labs/py3/generators/gensquares.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/py3/generators/generators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
           <folding />
         </state>
       </provider>

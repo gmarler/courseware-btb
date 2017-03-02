@@ -52,7 +52,20 @@ BLASTOFF!
 '''
 
 # Write your code here:
+def evens_up_to(limit):
+  n = 1
+  while n <= limit:
+    if n % 2 == 0:
+      yield n
+    n += 1
 
+def squares_up_to(limit):
+  n = 1
+  square = n ** 2
+  while square <= limit:
+    yield square
+    n += 1
+    square = n ** 2
 
 
 # Do not edit any code below this line!
