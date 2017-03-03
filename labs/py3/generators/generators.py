@@ -67,6 +67,14 @@ def squares_up_to(limit):
     n += 1
     square = n ** 2
 
+def countdown(start):
+  n = start;
+  while n > 0:
+    yield n
+    n -= 1
+  yield 'BLASTOFF!'
+
+
 
 # Do not edit any code below this line!
 
