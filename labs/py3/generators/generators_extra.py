@@ -87,7 +87,24 @@ StopIteration
 '''
 
 # Write your code here:
-
+def warc_records(filename):
+  with open(filename) as file_handle:
+    prevline = None
+    for line in file_handle:
+      if (line == "\n" and prevline == "\n"):
+        break
+      prevline = line
+    while True:
+      line = file_handle.readline()
+      if line == "":
+        raise StopIteration
+      if line == 'WARC/1.0':
+        record = {}
+      while line != "\n":
+        vals = line.split(': ')
+        if len(vals) == 2:
+          dict[vals[0]] = vals[1]
+      yield record
 
 
 
