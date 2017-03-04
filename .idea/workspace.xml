@@ -3,16 +3,16 @@
   <component name="AutoTestManager">
     <enabled-run-configurations>
       <run-configuration type="tests" name="Rerun Failed Tests" />
-      <run-configuration type="tests" name="Rerun Failed Tests" />
-      <run-configuration type="tests" name="Rerun Failed Tests" />
-      <run-configuration type="tests" name="Rerun Failed Tests" />
-      <run-configuration type="tests" name="Rerun Failed Tests" />
+      <run-configuration type="tests" name="Doctests in listcomp" />
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db29bc51-f85e-42bc-b729-ce73b9f39ff9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/courseware-btb.iml" afterPath="$PROJECT_DIR$/.idea/courseware-btb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/py3/generators/generators_extra.py" afterPath="$PROJECT_DIR$/labs/py3/generators/generators_extra.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/py3/comprehensions/listcomp.py" afterPath="$PROJECT_DIR$/labs/py3/comprehensions/listcomp.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,12 +22,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/courseware-btb$Doctests_in_helloworld_extra.coverage" NAME="Doctests in helloworld_extra Coverage Results" MODIFIED="1488337793312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3" />
     <SUITE FILE_PATH="coverage/courseware-btb$Doctests_in_generators.coverage" NAME="Doctests in generators Coverage Results" MODIFIED="1488559958649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3/generators" />
     <SUITE FILE_PATH="coverage/courseware-btb$Doctests_in_generators_extra.coverage" NAME="Doctests in generators_extra Coverage Results" MODIFIED="1488575841998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3/generators" />
-    <SUITE FILE_PATH="coverage/courseware-btb$helloworld_extra.coverage" NAME="helloworld_extra Coverage Results" MODIFIED="1488337107865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3" />
-    <SUITE FILE_PATH="coverage/courseware-btb$Doctests_in_listcomp.coverage" NAME="Doctests in listcomp Coverage Results" MODIFIED="1488337939355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3/comprehensions" />
     <SUITE FILE_PATH="coverage/courseware-btb$gensquares.coverage" NAME="gensquares Coverage Results" MODIFIED="1488429036492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3/generators" />
+    <SUITE FILE_PATH="coverage/courseware-btb$helloworld_extra.coverage" NAME="helloworld_extra Coverage Results" MODIFIED="1488337107865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3" />
+    <SUITE FILE_PATH="coverage/courseware-btb$Doctests_in_listcomp.coverage" NAME="Doctests in listcomp Coverage Results" MODIFIED="1488642925409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3/comprehensions" />
+    <SUITE FILE_PATH="coverage/courseware-btb$Doctests_in_helloworld_extra.coverage" NAME="Doctests in helloworld_extra Coverage Results" MODIFIED="1488337793312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -35,42 +35,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="generators.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labs/py3/generators/generators.py">
+      <file leaf-file-name="listcomp.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/labs/py3/comprehensions/listcomp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
-              <caret line="74" column="19" lean-forward="false" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generators_extra.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/labs/py3/generators/generators_extra.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="105" column="33" lean-forward="true" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generators_extra.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solutions/py3/generators/generators_extra.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-918">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="crawl-data.warc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labs/py3/generators/crawl-data.warc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="547">
+              <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+              <folding>
+                <marker date="1488642924674" expanded="true" signature="1660:1770" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,6 +67,7 @@
         <option value="$PROJECT_DIR$/labs/py3/generators/gensquares.py" />
         <option value="$PROJECT_DIR$/labs/py3/generators/generators.py" />
         <option value="$PROJECT_DIR$/labs/py3/generators/generators_extra.py" />
+        <option value="$PROJECT_DIR$/labs/py3/comprehensions/listcomp.py" />
       </list>
     </option>
   </component>
@@ -105,10 +78,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2655" />
-    <option name="y" value="98" />
-    <option name="width" value="2170" />
-    <option name="height" value="1285" />
+    <option name="x" value="260" />
+    <option name="y" value="52" />
+    <option name="width" value="1551" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -230,7 +203,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="generators" />
+              <option name="myItemId" value="comprehensions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -259,9 +232,9 @@
     <property name="nodejs_interpreter_path" value="$USER_HOME$/node-v6.9.2-linux-x64/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/node-v6.9.2-linux-x64/bin/node" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
-  <component name="RunManager" selected="Python tests.Doctests in generators_extra">
+  <component name="RunManager" selected="Python tests.Doctests in listcomp">
     <configuration default="false" name="Doctests in helloworld_extra" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -583,10 +556,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Doctests in generators_extra" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Doctests in generators" />
-        <item index="2" class="java.lang.String" itemvalue="Python.gensquares" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Doctests in listcomp" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Doctests in listcomp" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Doctests in generators_extra" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Doctests in generators" />
+        <item index="3" class="java.lang.String" itemvalue="Python.gensquares" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.Doctests in helloworld_extra" />
       </list>
     </recent_temporary>
@@ -658,48 +631,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Doctests_in_generators_extra - 2017.03.03 at 16h 07m 31s.xml">
-      <configuration name="Doctests in generators_extra" configurationId="tests" />
+    <history-entry file="Doctests_in_listcomp - 2017.03.04 at 10h 49m 43s.xml">
+      <configuration name="Doctests in listcomp" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_generators_extra - 2017.03.03 at 16h 08m 06s.xml">
-      <configuration name="Doctests in generators_extra" configurationId="tests" />
+    <history-entry file="Doctests_in_listcomp - 2017.03.04 at 10h 49m 53s.xml">
+      <configuration name="Doctests in listcomp" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_generators_extra - 2017.03.03 at 16h 08m 21s.xml">
-      <configuration name="Doctests in generators_extra" configurationId="tests" />
+    <history-entry file="Doctests_in_listcomp - 2017.03.04 at 10h 50m 05s.xml">
+      <configuration name="Doctests in listcomp" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_generators_extra - 2017.03.03 at 16h 08m 50s.xml">
-      <configuration name="Doctests in generators_extra" configurationId="tests" />
+    <history-entry file="Doctests_in_listcomp - 2017.03.04 at 10h 50m 20s.xml">
+      <configuration name="Doctests in listcomp" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_generators_extra - 2017.03.03 at 16h 10m 39s.xml">
-      <configuration name="Doctests in generators_extra" configurationId="tests" />
+    <history-entry file="Doctests_in_listcomp - 2017.03.04 at 10h 50m 28s.xml">
+      <configuration name="Doctests in listcomp" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_generators_extra - 2017.03.03 at 16h 11m 01s.xml">
-      <configuration name="Doctests in generators_extra" configurationId="tests" />
+    <history-entry file="Doctests_in_listcomp - 2017.03.04 at 10h 53m 57s.xml">
+      <configuration name="Doctests in listcomp" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_generators_extra - 2017.03.03 at 16h 11m 46s.xml">
-      <configuration name="Doctests in generators_extra" configurationId="tests" />
+    <history-entry file="Doctests_in_listcomp - 2017.03.04 at 10h 54m 00s.xml">
+      <configuration name="Doctests in listcomp" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_generators_extra - 2017.03.03 at 16h 14m 33s.xml">
-      <configuration name="Doctests in generators_extra" configurationId="tests" />
+    <history-entry file="Doctests_in_listcomp - 2017.03.04 at 10h 55m 03s.xml">
+      <configuration name="Doctests in listcomp" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_generators_extra - 2017.03.03 at 16h 14m 48s.xml">
-      <configuration name="Doctests in generators_extra" configurationId="tests" />
+    <history-entry file="Doctests_in_listcomp - 2017.03.04 at 10h 55m 15s.xml">
+      <configuration name="Doctests in listcomp" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_generators_extra - 2017.03.03 at 16h 17m 27s.xml">
-      <configuration name="Doctests in generators_extra" configurationId="tests" />
+    <history-entry file="Doctests_in_listcomp - 2017.03.04 at 10h 55m 25s.xml">
+      <configuration name="Doctests in listcomp" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2655" y="98" width="2170" height="1285" extended-state="0" />
+    <frame x="260" y="52" width="1551" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19359331" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.174306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32908162" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3308176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -736,6 +709,38 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/labs/py3/generators/generators.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="19" lean-forward="false" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/py3/generators/generators_extra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solutions/py3/generators/generators_extra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/py3/generators/crawl-data.warc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/py3/generators/generators.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -764,13 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/py3/comprehensions/listcomp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/labs/py3/generators/gensquares.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -780,24 +778,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/labs/py3/generators/generators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
+        <state relative-caret-position="1110">
           <caret line="74" column="19" lean-forward="false" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/py3/generators/crawl-data.warc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solutions/py3/generators/generators_extra.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-918">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -805,8 +787,34 @@
     <entry file="file://$PROJECT_DIR$/labs/py3/generators/generators_extra.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
-          <caret line="105" column="33" lean-forward="true" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
+          <caret line="105" column="33" lean-forward="false" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solutions/py3/generators/generators_extra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/py3/generators/crawl-data.warc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/py3/comprehensions/listcomp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+          <folding>
+            <marker date="1488642924674" expanded="true" signature="1660:1770" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -53,7 +53,16 @@ Make it case-insensitive too:
 '''
 
 # Write your code here:
+squares = [ x**2 for x in range(9) ]
+cubes   = [ x**3 for x in range(6)]
+squares_of_evens = [ x for x in squares if x % 2 == 0 ]
 
+def palindromes(str_list):
+  return [ x + x[::-1] for x in str_list ]
+
+
+def starting_with(letter, names):
+  return [ name for name in names if name[0].lower() == letter.lower() ]
 
 
 # Do not edit any code below this line!
