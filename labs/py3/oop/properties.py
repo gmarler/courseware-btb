@@ -39,7 +39,21 @@ ValueError: Invalid section "upper_mezzanine"
 '''
 
 # Write your code here:
-
+class ConcertTicket:
+  def __init__(self, price, section):
+    self._price = price
+    self._section = section
+  @property
+  def price(self):
+    return self._price
+  @property
+  def section(self):
+    return self._section
+  @section.setter
+  def section(self, new_section):
+    if new_section not in ['floor', 'lower', 'mezzanine', 'premier']:
+      raise ValueError('Invalid section "' + new_section + '"')
+    self._section = new_section
 
 
 # Do not edit any code below this line!

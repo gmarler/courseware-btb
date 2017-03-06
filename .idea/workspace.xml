@@ -3,16 +3,16 @@
   <component name="AutoTestManager">
     <enabled-run-configurations>
       <run-configuration type="tests" name="Rerun Failed Tests" />
+      <run-configuration type="tests" name="Doctests in properties" />
+      <run-configuration type="tests" name="Rerun Failed Tests" />
+      <run-configuration type="tests" name="Doctests in listcomp_extra" />
       <run-configuration type="tests" name="Doctests in listcomp" />
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db29bc51-f85e-42bc-b729-ce73b9f39ff9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/courseware-btb.iml" afterPath="$PROJECT_DIR$/.idea/courseware-btb.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/py3/comprehensions/listcomp.py" afterPath="$PROJECT_DIR$/labs/py3/comprehensions/listcomp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/py3/oop/properties.py" afterPath="$PROJECT_DIR$/labs/py3/oop/properties.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,11 +22,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/courseware-btb$Doctests_in_listcomp_extra.coverage" NAME="Doctests in listcomp_extra Coverage Results" MODIFIED="1488643281913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3/comprehensions" />
     <SUITE FILE_PATH="coverage/courseware-btb$Doctests_in_generators.coverage" NAME="Doctests in generators Coverage Results" MODIFIED="1488559958649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3/generators" />
     <SUITE FILE_PATH="coverage/courseware-btb$Doctests_in_generators_extra.coverage" NAME="Doctests in generators_extra Coverage Results" MODIFIED="1488575841998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3/generators" />
     <SUITE FILE_PATH="coverage/courseware-btb$gensquares.coverage" NAME="gensquares Coverage Results" MODIFIED="1488429036492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3/generators" />
     <SUITE FILE_PATH="coverage/courseware-btb$helloworld_extra.coverage" NAME="helloworld_extra Coverage Results" MODIFIED="1488337107865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3" />
-    <SUITE FILE_PATH="coverage/courseware-btb$Doctests_in_listcomp.coverage" NAME="Doctests in listcomp Coverage Results" MODIFIED="1488642925409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3/comprehensions" />
+    <SUITE FILE_PATH="coverage/courseware-btb$Doctests_in_listcomp.coverage" NAME="Doctests in listcomp Coverage Results" MODIFIED="1488643058815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3/comprehensions" />
+    <SUITE FILE_PATH="coverage/courseware-btb$Doctests_in_properties.coverage" NAME="Doctests in properties Coverage Results" MODIFIED="1488833075943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3/oop" />
     <SUITE FILE_PATH="coverage/courseware-btb$Doctests_in_helloworld_extra.coverage" NAME="Doctests in helloworld_extra Coverage Results" MODIFIED="1488337793312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/py3" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -35,7 +37,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="listcomp.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="listcomp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/labs/py3/comprehensions/listcomp.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="547">
@@ -43,6 +45,26 @@
               <folding>
                 <marker date="1488642924674" expanded="true" signature="1660:1770" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listcomp_extra.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/labs/py3/comprehensions/listcomp_extra.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="547">
+              <caret line="81" column="43" lean-forward="false" selection-start-line="81" selection-start-column="43" selection-end-line="81" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="properties.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/labs/py3/oop/properties.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,6 +90,8 @@
         <option value="$PROJECT_DIR$/labs/py3/generators/generators.py" />
         <option value="$PROJECT_DIR$/labs/py3/generators/generators_extra.py" />
         <option value="$PROJECT_DIR$/labs/py3/comprehensions/listcomp.py" />
+        <option value="$PROJECT_DIR$/labs/py3/comprehensions/listcomp_extra.py" />
+        <option value="$PROJECT_DIR$/labs/py3/oop/properties.py" />
       </list>
     </option>
   </component>
@@ -123,47 +147,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="solutions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="py3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="courseware-btb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="courseware-btb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="solutions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="py3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="courseware-btb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="courseware-btb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="solutions" />
+              <option name="myItemId" value="slides" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -203,7 +187,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="comprehensions" />
+              <option name="myItemId" value="oop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -234,27 +218,7 @@
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/node-v6.9.2-linux-x64/bin/node" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
-  <component name="RunManager" selected="Python tests.Doctests in listcomp">
-    <configuration default="false" name="Doctests in helloworld_extra" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="/usr/bin/python3.5" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/labs/py3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="courseware-btb" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/labs/py3/helloworld_extra.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Doctests in properties">
     <configuration default="false" name="Doctests in listcomp" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,24 +237,6 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="gensquares" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/labs/py3/generators" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="courseware-btb" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/labs/py3/generators/gensquares.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="Doctests in generators" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
@@ -325,6 +271,46 @@
       <module name="courseware-btb" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/labs/py3/generators/generators_extra.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Doctests in listcomp_extra" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="/usr/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/labs/py3/comprehensions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="courseware-btb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/labs/py3/comprehensions/listcomp_extra.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Doctests in properties" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="/usr/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/labs/py3/oop" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="courseware-btb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/labs/py3/oop/properties.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -548,19 +534,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Doctests in helloworld_extra" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Doctests in listcomp" />
-      <item index="2" class="java.lang.String" itemvalue="Python.gensquares" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Doctests in generators" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Doctests in generators_extra" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Doctests in listcomp" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Doctests in generators" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Doctests in generators_extra" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Doctests in listcomp_extra" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Doctests in properties" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Doctests in listcomp" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Doctests in generators_extra" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Doctests in generators" />
-        <item index="3" class="java.lang.String" itemvalue="Python.gensquares" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Doctests in helloworld_extra" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Doctests in properties" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Doctests in listcomp_extra" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Doctests in listcomp" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Doctests in generators_extra" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Doctests in generators" />
       </list>
     </recent_temporary>
   </component>
@@ -627,39 +613,53 @@
       <option name="project" value="LOCAL" />
       <updated>1488559972650</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Finished listcomp.py">
+      <created>1488642941481</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1488642941481</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Finished listcomp_extra.py">
+      <created>1488643293910</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1488643293910</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Doctests_in_listcomp - 2017.03.04 at 10h 49m 43s.xml">
-      <configuration name="Doctests in listcomp" configurationId="tests" />
+    <history-entry file="Doctests_in_properties - 2017.03.06 at 15h 20m 48s.xml">
+      <configuration name="Doctests in properties" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_listcomp - 2017.03.04 at 10h 49m 53s.xml">
-      <configuration name="Doctests in listcomp" configurationId="tests" />
+    <history-entry file="Doctests_in_properties - 2017.03.06 at 15h 43m 11s.xml">
+      <configuration name="Doctests in properties" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_listcomp - 2017.03.04 at 10h 50m 05s.xml">
-      <configuration name="Doctests in listcomp" configurationId="tests" />
+    <history-entry file="Doctests_in_properties - 2017.03.06 at 15h 43m 22s.xml">
+      <configuration name="Doctests in properties" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_listcomp - 2017.03.04 at 10h 50m 20s.xml">
-      <configuration name="Doctests in listcomp" configurationId="tests" />
+    <history-entry file="Doctests_in_properties - 2017.03.06 at 15h 43m 27s.xml">
+      <configuration name="Doctests in properties" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_listcomp - 2017.03.04 at 10h 50m 28s.xml">
-      <configuration name="Doctests in listcomp" configurationId="tests" />
+    <history-entry file="Doctests_in_properties - 2017.03.06 at 15h 43m 35s.xml">
+      <configuration name="Doctests in properties" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_listcomp - 2017.03.04 at 10h 53m 57s.xml">
-      <configuration name="Doctests in listcomp" configurationId="tests" />
+    <history-entry file="Doctests_in_properties - 2017.03.06 at 15h 43m 44s.xml">
+      <configuration name="Doctests in properties" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_listcomp - 2017.03.04 at 10h 54m 00s.xml">
-      <configuration name="Doctests in listcomp" configurationId="tests" />
+    <history-entry file="Doctests_in_properties - 2017.03.06 at 15h 43m 53s.xml">
+      <configuration name="Doctests in properties" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_listcomp - 2017.03.04 at 10h 55m 03s.xml">
-      <configuration name="Doctests in listcomp" configurationId="tests" />
+    <history-entry file="Doctests_in_properties - 2017.03.06 at 15h 44m 03s.xml">
+      <configuration name="Doctests in properties" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_listcomp - 2017.03.04 at 10h 55m 15s.xml">
-      <configuration name="Doctests in listcomp" configurationId="tests" />
+    <history-entry file="Doctests_in_properties - 2017.03.06 at 15h 44m 19s.xml">
+      <configuration name="Doctests in properties" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_listcomp - 2017.03.04 at 10h 55m 25s.xml">
-      <configuration name="Doctests in listcomp" configurationId="tests" />
+    <history-entry file="Doctests_in_properties - 2017.03.06 at 15h 44m 36s.xml">
+      <configuration name="Doctests in properties" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -700,7 +700,9 @@
     <MESSAGE value="Make sure gensquares.py hits StopIteration" />
     <MESSAGE value="basic updates to IDE configuration" />
     <MESSAGE value="Finished generators.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished generators.py" />
+    <MESSAGE value="Finished listcomp.py" />
+    <MESSAGE value="Finished listcomp_extra.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished listcomp_extra.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -815,6 +817,22 @@
           <folding>
             <marker date="1488642924674" expanded="true" signature="1660:1770" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/py3/comprehensions/listcomp_extra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="81" column="43" lean-forward="false" selection-start-line="81" selection-start-column="43" selection-end-line="81" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/py3/oop/properties.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
