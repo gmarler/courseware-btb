@@ -55,7 +55,18 @@ AttributeError: can't set attribute
 '''
 
 # Write your code here:
+class Resistor:
+  def __init__(self,resistance,voltage):
+    self.resistance = resistance
+    self.voltage    = voltage
 
+  @property
+  def current(self):
+    return self.voltage / self.resistance
+
+  @property
+  def current_in_milliamps(self):
+    return self.current * 1000
 
 
 # Do not edit any code below this line!
